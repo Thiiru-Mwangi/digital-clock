@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-height: 100vh;
+    background-color: #020202;
+    background-image: url("bg.jpg");
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(2px);
+    color:aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive, serif;
+}
+
+h2{
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    font-size: 2.4rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.333);
+}
+
+.clock{
+    /* background-color: rebeccapurple; */
+    width: 70%;
+    padding: .5rem;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.clock div{
+    margin: .3rem;
+    border-radius: .3rem;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.clock span{
+    background-color:rgba(102, 51, 153, 0.87);
+    padding: .3rem .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.6rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.clock .text{
+    background-color: yellow;
+    opacity: .87;
+    font-size: 1.3rem;
+}
+
+.clock #ampm{
+    font-size: 3rem;
+    text-align: center;
+    background-color: transparent;
+}
